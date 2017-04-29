@@ -50,3 +50,14 @@ header ul>li>a{
 footer{
     background: black;
 }
+
+.gallery-block {
+    margin: 40px auto;
+}
+main .gallery-title{
+    padding-top: 20px;
+    text-align: center;
+}
+main .gallery-text{
+    padding:0 20%;
+}
