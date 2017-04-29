@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Adventure;
+    src: url(../fonts/adventure.ttf);
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    background: rgba(255,255,255,.8);
+}
+
+header .uk-navbar-nav{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+}
+header .uk-navbar{
+    background: transparent;
+}
+header ul>li>a{
+    font-family: Adventure !important;
+    font-size: 22px !important;
+    line-height: 1.2;
+}
+.slider-image{
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 80%;
+    background-position: center center;
+}
+.main-article {
+    font-family: Adventure !important;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 40px;
+}
+.slider-image1{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50%;
+    background-position: center center;
+}
+footer{
+    background: black;
+}

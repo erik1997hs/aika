@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/uikit.min.css">
+    <link rel="stylesheet" href="public/css/app.css">
+    <link rel="stylesheet" href="public/css/components/slideshow.min.css">
+    <link rel="stylesheet" href="public/css/components/slidenav.min.css">
+
+    <script src="public/js/jquery-3.1.1.min.js"></script>
+    <script src="public/js/uikit.min.js"></script>
+    <script src="public/js/components/slideshow.js"> </script>
+
+    <link rel="stylesheet" href="public/unite-gallery/css/unite-gallery.css">
+    <script src="public/unite-gallery/js/unitegallery.min.js"></script>
+    <script src="public/unite-gallery/themes/tiles/ug-theme-tiles.js"></script>
+
+</head>
+<body>
+ <header>
+     <nav class="uk-navbar">
+         <ul class="uk-navbar-nav">
+             <li class="uk-active"><a href="">Главная</a></li>
+             <li><a href="">Обо мне</a></li>
+             <li><a href="">Хобби</a></li>
+             <li><a href="">Портфолио</a></li>
+             <li><a href="">Цитата</a></li>
+             <li><a href="">Контакты</a></li>
+         </ul>
+     </nav>
+ </header>
+
+<main>
+    <div class="slider-main">
+        <div class="uk-grid">
+            <div class='uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2'>
+                <div class="uk-slidenav-position" data-uk-slideshow="{animations: 'scroll'}" >
+                    <ul class="uk-slideshow" >
+                        <li>
+                            <div class='slider-image' style='background-image: url(public/Img/1/1.jpg)'></div>
+                        </li>
+                        <li>
+                            <div class='slider-image' style='background-image: url(public/Img/1/2.jpg)'></div>
+                        </li>
+                        <li>
+                            <div class='slider-image' style='background-image: url(public/Img/1/3.jpg)'></div>
+                        </li>
+                        <li>
+                            <div class='slider-image' style='background-image: url(public/Img/1/4.jpg)'></div>
+                        </li>
+                        <li>
+                            <div class='slider-image' style='background-image: url(public/Img/1/5.jpg)'></div>
+                        </li>
+                        <li>
+                            <div class='slider-image' style='background-image: url(public/Img/1/6.jpg)'></div>
+                        </li>
+                    </ul>
+                    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+                    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+                </div>
+            </div>
+                <div class='uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2'>
+                    <img src='public/Img/1.png'>
+                    <div class="main-article">
+                        <article>
+                            Беккалиева Айгерим Мырзагалиевна 30.05.90 года рождения. В 2013 году получила пятилетнее академическое образование в КазНАИ им.Т.Жургенева в г.Алматы . по специальности художник монументальной живописи . С 2010 и по сегодняшний день занимаюсь художественным и декоративным оформлением интерьера -роспись стен, живопись ,декоративными фактурами , штукатурками и декор . В свободное время занимаюсь тем же.
+                        </article>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="uk-container uk-container-center">
+    <div class="uk-slidenav-position" data-uk-slideshow="{animations: 'scroll'}" >
+        <ul class="uk-slideshow" >
+            <li>
+                <div class='slider-image1' style='background-image: url(public/Img/1/1.jpg)'></div>
+            </li>
+            <li>
+                <div class='slider-image1' style='background-image: url(public/Img/1/2.jpg)'></div>
+            </li>
+            <li>
+                <div class='slider-image1' style='background-image: url(public/Img/1/3.jpg)'></div>
+            </li>
+            <li>
+                <div class='slider-image1' style='background-image: url(public/Img/1/4.jpg)'></div>
+            </li>
+            <li>
+                <div class='slider-image1' style='background-image: url(public/Img/1/5.jpg)'></div>
+            </li>
+            <li>
+                <div class='slider-image1' style='background-image: url(public/Img/1/6.jpg)'></div>
+            </li>
+        </ul>
+        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+    </div>
+    </div>
+    <div class="uk-container uk-container-center">
+    <div id="gallery" style="display:none;">
+
+        <img alt="1" src="public/Img/2/1.jpg"
+             data-image="public/Img/2/1.jpg"
+             data-description="Image 1 Description">
+
+        <img alt="2" src="public/Img/2/2.JPG"
+             data-image="public/Img/2/2.jpg"
+             data-description="Image 2 Description">
+
+        <img alt="3" src="public/Img/2/3.JPG"
+             data-image="public/Img/2/3.jpg"
+             data-description="Image 3 Description">
+
+        <img alt="4" src="public/Img/2/4.JPG"
+             data-image="public/Img/2/4.jpg"
+             data-description="Image 4 Description">
+
+        <img alt="5" src="public/Img/2/5.JPG"
+             data-image="public/Img/2/3.jpg"
+             data-description="Image 3 Description">
+
+        <img alt="6" src="public/Img/2/6.JPG"
+             data-image="public/Img/2/6.jpg"
+             data-description="Image 6 Description">
+
+        <img alt="7" src="public/Img/2/7.jpg"
+             data-image="public/Img/2/7.jpg"
+             data-description="Image 7 Description">
+
+        <img alt="8" src="public/Img/2/8.jpg"
+             data-image="public/Img/2/8.jpg"
+             data-description="Image 8 Description">
+
+        <img alt="9" src="public/Img/2/9.jpg"
+             data-image="public/Img/2/9.jpg"
+             data-description="Image 9 Description">
+
+        <img alt="10" src="public/Img/2/10.jpg"
+             data-image="public/Img/2/10.jpg"
+             data-description="Image 10 Description">
+
+        <img alt="11" src="public/Img/2/11.JPG"
+             data-image="public/Img/2/11.jpg"
+             data-description="Image 11 Description">
+
+        <img alt="12" src="public/Img/2/12.jpg"
+             data-image="public/Img/2/12.jpg"
+             data-description="Image 12 Description">
+
+        <img alt="13" src="public/Img/2/13.jpg"
+             data-image="public/Img/2/13.jpg"
+             data-description="Image 13 Description">
+
+        <img alt="14" src="public/Img/2/14.jpg"
+             data-image="public/Img/2/14.jpg"
+             data-description="Image 14 Description">
+
+        <img alt="15" src="public/Img/2/15.jpg"
+             data-image="public/Img/2/15.jpg"
+             data-description="Image 15 Description">
+
+        <img alt="16" src="public/Img/2/16.jpg"
+             data-image="public/Img/2/16.jpg"
+             data-description="Image 16 Description">
+
+        <img alt="17" src="public/Img/2/17.JPG"
+             data-image="public/Img/2/17.jpg"
+             data-description="Image 17 Description">
+
+        <img alt="18" src="public/Img/2/18.JPG"
+             data-image="public/Img/2/18.jpg"
+             data-description="Image 18 Description">
+
+        <img alt="19" src="public/Img/2/19.JPG"
+             data-image="public/Img/2/19.jpg"
+             data-description="Image 19 Description">
+
+        <img alt="20" src="public/Img/2/20.JPG"
+             data-image="public/Img/2/20.jpg"
+             data-description="Image 20 Description">
+
+        <img alt="21" src="public/Img/2/21.JPG"
+             data-image="public/Img/2/21.jpg"
+             data-description="Image 21 Description">
+
+        <img alt="22" src="public/Img/2/22.jpg"
+             data-image="public/Img/2/22.jpg"
+             data-description="Image 22 Description">
+
+        <img alt="23" src="public/Img/2/23.jpg"
+             data-image="public/Img/2/23.jpg"
+             data-description="Image 23 Description">
+
+        <img alt="24" src="public/Img/2/24.jpg"
+             data-image="public/Img/2/25.jpg"
+             data-description="Image 24 Description">
+
+        <img alt="25" src="public/Img/2/25.jpg"
+             data-image="public/Img/2/25.jpg"
+             data-description="Image 25 Description">
+
+        <img alt="26" src="public/Img/2/26.jpg"
+             data-image="public/Img/2/26.jpg"
+             data-description="Image 26 Description">
+
+        <img alt="27" src="public/Img/2/27.jpg"
+             data-image="public/Img/2/27.jpg"
+             data-description="Image 27 Description">
+
+        <img alt="28" src="public/Img/2/28.jpg"
+             data-image="public/Img/2/28.jpg"
+             data-description="Image 28 Description">
+
+        <img alt="29" src="public/Img/2/29.jpg"
+             data-image="public/Img/2/29.jpg"
+             data-description="Image 29 Description">
+
+        <img alt="30" src="public/Img/2/30.jpg"
+             data-image="public/Img/2/30.jpg"
+             data-description="Image 30 Description">
+    </div>
+    </div>
+</main>
+ <footer>
+     <div class="uk-container">
+         <div class="uk-grid">
+             <div class='uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2'>
+
+             </div>
+             <div class='uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-1-2'>
+                <a href="tel:87083518025">
+                Мобильный,WhatsApp: 87083518025
+                </a>
+                 <a href="mailto:bekkalieva@mail.ru">
+                 E-mail: bekkalieva@mail.ru
+                 </a>
+                 <a>
+                  Instagram: BEKKALIYEVA_ARTIST
+                 </a>
+                 <a>
+                   Facebook: AIGA BEKKALIYEVA
+                 </a>
+             </div>
+         </div>
+
+
+     </div>
+ </footer>
+
+ <script>
+     jQuery("#gallery").unitegallery({
+         tiles_type:"justified"
+         }
+     );
+ </script>
+ 
+</body>
+</html>
